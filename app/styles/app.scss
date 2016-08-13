@@ -1,0 +1,323 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+#menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+	background: #384047;
+	height: 60px;
+  //width: 1280px;
+	padding: 0 5px 0;
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	display: inline-block;
+	width: 84px;
+	text-align: center;
+}
+ul li a {
+	color: #fff;
+	width: 100%;
+	line-height: 60px;
+	text-decoration: none;
+}
+// ul li.selected {
+// 	background: #fff;
+// }
+ul li.selected a {
+	color: #384047;
+}
+ul a:hover{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+select {
+	width: 84%;
+	margin: 11px  0 11px 2%;
+	float: left;
+}
+button {
+	display: inline-block;
+	line-height: 18px;
+	padding: 0 5px;
+	margin: 11px 2% 11px 0;
+	float: right;
+	width: 10%;
+}
+// robertcable heading
+.site-heading{
+  height: 60vh;
+  background: url('../images/skyline3.jpg');
+  background-size: cover;
+}
+.first-name{
+  font-family: 'Cinzel', serif;
+}
+.last-name{
+  color: whitesmoke;
+  font-family: 'Cinzel', serif;
+}
+.job-title{
+  font-family: 'Quicksand', sans-serif;
+}
+// .img-back{
+//   background: url('../images/seascape.jpg');
+//   background-size: cover;
+//   height: 100vh;
+//   margin: 0 auto;
+//   // padding: 0;
+// }
+/**Modify CSS to hide links on small width and show button and select
+  //Also hide select and button on larger width and show's links
+ **/
+
+ //Skills
+
+ .html-shield{
+   font-size: 7em;
+ }
+ .css-shield{
+   position: relative;
+   font-size: 7em;
+ }
+ .bootstrap-shield{
+   font-size: 7em;
+ }
+ .sass-shield{
+   font-size: 7em;
+ }
+ .js-shield{
+   font-size: 7em;
+ }
+ .jq-shield{
+   font-size: 7em;
+ }
+ .backbone-shield{
+   font-size: 7em;
+ }
+ .react-shield{
+   font-size: 7em;
+ }
+ .yeo-shield{
+   font-size: 7em;
+ }
+ .npm-shield{
+   font-size: 7em;
+ }
+ .git-shield{
+   font-size: 7em;
+ }
+ .github-shield{
+   font-size: 7em;
+ }
+ //Hover Effect
+ .extra{
+   display: none;
+   font-weight: bolder;
+ }
+ .html-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .html-shield:hover{
+   color: maroon;
+ }
+ .css-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .css-shield:hover{
+   color: maroon;
+ }
+ .bootstrap-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .bootstrap-shield:hover{
+   color: maroon;
+ }
+ .sass-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .sass-shield:hover{
+   color: maroon;
+ }
+.js-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 105px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.js-shield:hover{
+  color: maroon;
+}
+.jq-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.jq-shield:hover{
+  color: maroon;
+}
+.backbone-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.backbone-shield:hover{
+  color: maroon;
+}
+.react-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.react-shield:hover{
+  color: maroon;
+}
+.yeo-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.yeo-shield:hover{
+  color: maroon;
+}
+.npm-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.npm-shield:hover{
+  color: maroon;
+}
+.git-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.git-shield:hover{
+  color: maroon;
+}
+.github-shield:hover .extra{
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  transition: .25s;
+}
+.github-shield:hover{
+  color: maroon;
+}
+//Portfolio Images
+.view-project{
+  background: #384047;
+  color: white;
+}
+.view-project:hover{
+  color: white;
+  font-weight: bold
+}
+//Footer
+.facebook{
+  color: #384047;
+  font-size: 2em;
+}
+.facebook:hover{
+  color: #384047;
+}
+.github{
+  color: #384047;
+  font-size: 2em;
+}
+.github:hover{
+  color: #384047;
+}
+.linkedin{
+  color: #384047;
+  font-size: 2em;
+}
+.linkedin:hover{
+  color: #384047;
+}
+
+
+@media (min-width: 320px) and (max-width: 568px){
+
+#menu ul {
+ display: none;
+}
+
+}
+
+@media (min-width: 568px){
+
+#menu select, #menu button{
+ display: none;
+}
+
+}
+.site-heading{
+  h1{
+  display: inline-grid;
+  }
+}
