@@ -67,9 +67,14 @@ button {
 }
 // robertcable heading
 .site-heading{
-  height: 60vh;
-  background: url('../images/skyline3.jpg');
+  height: auto;
+  background: url('../images/skyline3.jpg') no-repeat;
   background-size: cover;
+  display: table;
+  background-position: top center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 .first-name{
   font-family: 'Cinzel', serif;
@@ -80,6 +85,40 @@ button {
 }
 .job-title{
   font-family: 'Quicksand', sans-serif;
+}
+@media (max-width: 768px){
+  .site-heading{
+    background: gray;
+    text-align: center;
+    padding: 0;
+    height: 60vh;
+    width: 100%;
+    background: url('../images/skyline3.jpg') no-repeat;
+
+    .first-name{
+      font-size: 54px;
+    }
+  }
+
+}
+@media (max-width: 1200px){
+  .site-heading{
+    background: gray;
+    text-align: center;
+    padding: 0;
+    height: 60vh;
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    background: url('../images/skyline3.jpg') no-repeat;
+
+    .first-name{
+      font-size: 54px;
+    }
+    .job-title{
+      color: white;
+    }
+  }
+
 }
 // .img-back{
 //   background: url('../images/seascape.jpg');
@@ -303,6 +342,8 @@ button {
 
 @media (min-width: 320px) and (max-width: 568px){
 
+
+
 #menu ul {
  display: none;
 }
@@ -311,13 +352,14 @@ button {
 
 @media (min-width: 568px){
 
+.site-heading{
+  height: 60vh;
+}
+.job-title{
+  font-size: 50px;
+}
 #menu select, #menu button{
  display: none;
 }
 
-}
-.site-heading{
-  h1{
-  display: inline-grid;
-  }
 }
