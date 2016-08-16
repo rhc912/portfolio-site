@@ -5812,9 +5812,14 @@ button {
   width: 10%; }
 
 .site-heading {
-  height: 60vh;
-  background: url("../images/skyline3.jpg");
-  background-size: cover; }
+  height: auto;
+  background: url("../images/skyline3.jpg") no-repeat;
+  background-size: cover;
+  display: table;
+  background-position: top center;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
 
 .first-name {
   font-family: 'Cinzel', serif; }
@@ -5826,6 +5831,31 @@ button {
 .job-title {
   font-family: 'Quicksand', sans-serif; }
 
+@media (max-width: 768px) {
+  .site-heading {
+    background: gray;
+    text-align: center;
+    padding: 0;
+    height: 60vh;
+    width: 100%;
+    background: url("../images/skyline3.jpg") no-repeat; }
+    .site-heading .first-name {
+      font-size: 54px; }
+    .site-heading .job-title {
+      color: grey; } }
+@media (max-width: 1200px) {
+  .site-heading {
+    background: gray;
+    text-align: center;
+    padding: 0;
+    height: 60vh;
+    width: 100%;
+    background: url("../images/skyline3.jpg") no-repeat; }
+    .site-heading .first-name {
+      font-size: 44px; }
+    .site-heading .job-title {
+      color: grey;
+      font-weight: bold; } }
 /**Modify CSS to hide links on small width and show button and select
   //Also hide select and button on larger width and show's links
  **/
@@ -6047,9 +6077,13 @@ button {
   #menu ul {
     display: none; } }
 @media (min-width: 568px) {
+  .site-heading {
+    height: 60vh; }
+
+  .job-title {
+    font-size: 50px; }
+
   #menu select, #menu button {
     display: none; } }
-.site-heading h1 {
-  display: -ms-inline-grid;
-  display: inline-grid; }
+
 /*# sourceMappingURL=app.css.map */
