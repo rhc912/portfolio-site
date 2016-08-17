@@ -5,7 +5,6 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
-
 *,
 *::before,
 *::after {
@@ -15,6 +14,7 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
 
 #menu {
   position: fixed;
@@ -74,7 +74,7 @@ button {
   background-position: top center;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: auto;
 }
 .first-name{
   font-family: 'Cinzel', serif;
@@ -106,6 +106,7 @@ button {
 
 }
 @media (max-width: 1200px){
+
   .site-heading{
     background: gray;
     text-align: center;
@@ -319,6 +320,11 @@ button {
 .view-project:hover{
   color: white;
   font-weight: bold
+}
+//Contact
+.resume{
+  color: #384047;
+  text-decoration: underline;
 }
 //Footer
 .facebook{
