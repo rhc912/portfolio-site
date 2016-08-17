@@ -5819,7 +5819,7 @@ button {
   background-position: top center;
   margin: 0;
   padding: 0;
-  width: 100%; }
+  width: auto; }
 
 .first-name {
   font-family: 'Cinzel', serif; }
@@ -6051,6 +6051,10 @@ button {
 .view-project:hover {
   color: white;
   font-weight: bold; }
+
+.resume {
+  color: #384047;
+  text-decoration: underline; }
 
 .facebook {
   color: #384047;
