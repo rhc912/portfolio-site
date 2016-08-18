@@ -15,6 +15,27 @@ img {
   max-width: 100%;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container-rob {
+  padding: 0;
+}
+
+// html,
+// body {
+//   width: 100%;
+//   height: 100%;
+//   margin: 0px;
+//   padding: 0px;
+//   overflow-x: hidden;
+// }
 
 #menu {
   position: fixed;
@@ -74,7 +95,7 @@ button {
   background-position: top center;
   margin: 0;
   padding: 0;
-  width: auto;
+  width: 100vw;
 }
 .first-name{
   font-family: 'Cinzel', serif;
@@ -92,7 +113,7 @@ button {
     text-align: center;
     padding: 0;
     height: 60vh;
-    width: 100%;
+    width: 100vw;
     background: url('../images/skyline3.jpg') no-repeat;
 
     .first-name{
@@ -105,26 +126,26 @@ button {
   }
 
 }
-@media (max-width: 1200px){
-
-  .site-heading{
-    background: gray;
-    text-align: center;
-    padding: 0;
-    height: 60vh;
-    width: 100%;
-    background: url('../images/skyline3.jpg') no-repeat;
-
-    .first-name{
-      font-size: 44px;
-    }
-    .job-title{
-      color: grey;
-      font-weight: bold;
-    }
-  }
-
-}
+// @media (max-width: 1200px){
+//
+//   .site-heading{
+//     background: gray;
+//     text-align: center;
+//     padding: 0;
+//     height: 60vh;
+//     width: 100%;
+//     background: url('../images/skyline3.jpg') no-repeat;
+//
+//     .first-name{
+//       font-size: 44px;
+//     }
+//     .job-title{
+//       color: grey;
+//       font-weight: bold;
+//     }
+//   }
+//
+// }
 // .img-back{
 //   background: url('../images/seascape.jpg');
 //   background-size: cover;
