@@ -283,6 +283,48 @@ button {
      font-size: 4em;
    }
  }
+ @media (max-width: 767px) and (orientation: landscape){
+   .extra{
+     display: none;
+   }
+   .html-shield{
+     font-size: 4em;
+   }
+   .css-shield{
+     position: relative;
+     font-size: 4em;
+   }
+   .bootstrap-shield{
+     font-size: 4em;
+   }
+   .sass-shield{
+     font-size: 4em;
+   }
+   .js-shield{
+     font-size: 4em;
+   }
+   .jq-shield{
+     font-size: 4em;
+   }
+   .backbone-shield{
+     font-size: 4em;
+   }
+   .react-shield{
+     font-size: 4em;
+   }
+   .yeo-shield{
+     font-size: 4em;
+   }
+   .npm-shield{
+     font-size: 4em;
+   }
+   .git-shield{
+     font-size: 4em;
+   }
+   .github-shield{
+     font-size: 4em;
+   }
+ }
 @media (min-width: 768px) and (max-width: 1199px){
  .html-shield{
    font-size: 7em;
