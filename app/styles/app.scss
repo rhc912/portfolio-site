@@ -88,8 +88,8 @@ button {
 }
 // robertcable heading
 .site-heading{
-  height: auto;
-  background: url('../images/skyline3.jpg') no-repeat;
+  height: 60vh;
+  background: url('../images/skyline4.png') no-repeat;
   background-size: cover;
   display: table;
   background-position: top center;
@@ -105,60 +105,185 @@ button {
   font-family: 'Cinzel', serif;
 }
 .job-title{
+  text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
-@media (max-width: 768px){
-  .site-heading{
-    background: gray;
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .first-name{
     text-align: center;
-    padding: 0;
-    height: 60vh;
-    width: 100vw;
-    background: url('../images/skyline3.jpg') no-repeat;
-
-    .first-name{
-      font-size: 44px;
-
-    }
-    .job-title{
-      color: grey;
-    }
+    padding-top: 0px;
+    font-size: 60px;
   }
+  .last-name{
+    text-align: center;
+    font-size: 60px;
+  }
+  .job-title{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px rgb(0,0,0);
+  }
+  .jumbotron p{
+    font-size: 34px;
+  }
+  #menu ul li a {
+      font-size: 20px;
+    }
 
+    #menu ul {
+      padding-left: 0px;
+    }
+
+  #menu ul li {
+    width: 20%
+  }
 }
-// @media (max-width: 1200px){
-//
-//   .site-heading{
-//     background: gray;
-//     text-align: center;
-//     padding: 0;
-//     height: 60vh;
-//     width: 100%;
-//     background: url('../images/skyline3.jpg') no-repeat;
-//
-//     .first-name{
-//       font-size: 44px;
-//     }
-//     .job-title{
-//       color: grey;
-//       font-weight: bold;
-//     }
-//   }
-//
-// }
-// .img-back{
-//   background: url('../images/seascape.jpg');
-//   background-size: cover;
-//   height: 100vh;
-//   margin: 0 auto;
-//   // padding: 0;
-// }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .first-name{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 70px;
+    margin-right: 100px;
+  }
+  .last-name{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+  }
+  .job-title{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-right: 100px;
+    text-shadow: 1px 1px rgb(0,0,0);
+  }
+  .jumbotron p{
+    font-size: 34px;
+  }
+  #menu ul li a {
+      font-size: 20px;
+    }
+
+    #menu ul {
+      padding-left: 0px;
+    }
+
+  #menu ul li {
+    width: 20%
+  }
+}
+
+@media (max-width: 767px) and (orientation: portrait){
+ .first-name{
+   text-align: center;
+   padding-top: 25px;
+   font-size: 40px;
+ }
+ .last-name{
+   text-align: center;
+   font-size: 40px;
+ }
+ .job-title{
+   text-align: center;
+   font-size: 20px;
+   color: white;
+    text-shadow: 1px 1px rgb(0,0,0);
+ }
+ #menu ul li a {
+     font-size: 10px;
+   }
+
+   #menu ul {
+     padding-left: 0px;
+   }
+
+ #menu ul li {
+   width: 20%
+ }
+}
+@media (max-width: 767px) and (orientation: landscape){
+ .first-name{
+   text-align: center;
+   font-size: 20px;
+ }
+ .last-name{
+   text-align: center;
+   font-size: 20px;
+ }
+ .job-title{
+   text-align: center;
+   color: white;
+   font-size: 10px;
+   text-shadow: 1px 1px rgb(0,0,0);
+ }
+ .jumbotron p{
+   font-size: 14px;
+ }
+ #menu ul li a {
+     font-size: 10px;
+   }
+
+   #menu ul {
+     padding-left: 0px;
+   }
+
+ #menu ul li {
+   width: 20%
+ }
+}
+
+
 /**Modify CSS to hide links on small width and show button and select
   //Also hide select and button on larger width and show's links
  **/
 
  //Skills
-
+ @media (max-width: 767px) and (orientation: portrait){
+   .extra{
+     display: none;
+   }
+   .html-shield{
+     font-size: 4em;
+   }
+   .css-shield{
+     position: relative;
+     font-size: 4em;
+   }
+   .bootstrap-shield{
+     font-size: 4em;
+   }
+   .sass-shield{
+     font-size: 4em;
+   }
+   .js-shield{
+     font-size: 4em;
+   }
+   .jq-shield{
+     font-size: 4em;
+   }
+   .backbone-shield{
+     font-size: 4em;
+   }
+   .react-shield{
+     font-size: 4em;
+   }
+   .yeo-shield{
+     font-size: 4em;
+   }
+   .npm-shield{
+     font-size: 4em;
+   }
+   .git-shield{
+     font-size: 4em;
+   }
+   .github-shield{
+     font-size: 4em;
+   }
+ }
+@media (min-width: 768px) and (max-width: 1199px){
  .html-shield{
    font-size: 7em;
  }
@@ -333,6 +458,185 @@ button {
 .github-shield:hover{
   color: maroon;
 }
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+  .html-shield{
+    font-size: 7em;
+  }
+  .css-shield{
+    position: relative;
+    font-size: 7em;
+  }
+  .bootstrap-shield{
+    font-size: 7em;
+  }
+  .sass-shield{
+    font-size: 7em;
+  }
+  .js-shield{
+    font-size: 7em;
+  }
+  .jq-shield{
+    font-size: 7em;
+  }
+  .backbone-shield{
+    font-size: 7em;
+  }
+  .react-shield{
+    font-size: 7em;
+  }
+  .yeo-shield{
+    font-size: 7em;
+  }
+  .npm-shield{
+    font-size: 7em;
+  }
+  .git-shield{
+    font-size: 7em;
+  }
+  .github-shield{
+    font-size: 7em;
+  }
+  //Hover Effect
+  .extra{
+    display: none;
+    font-weight: bolder;
+  }
+  .html-shield:hover .extra{
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    transition: .25s;
+  }
+  .html-shield:hover{
+    color: maroon;
+  }
+  .css-shield:hover .extra{
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    transition: .25s;
+  }
+  .css-shield:hover{
+    color: maroon;
+  }
+  .bootstrap-shield:hover .extra{
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    transition: .25s;
+  }
+  .bootstrap-shield:hover{
+    color: maroon;
+  }
+  .sass-shield:hover .extra{
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    transition: .25s;
+  }
+  .sass-shield:hover{
+    color: maroon;
+  }
+ .js-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 105px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .js-shield:hover{
+   color: maroon;
+ }
+ .jq-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .jq-shield:hover{
+   color: maroon;
+ }
+ .backbone-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .backbone-shield:hover{
+   color: maroon;
+ }
+ .react-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .react-shield:hover{
+   color: maroon;
+ }
+ .yeo-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .yeo-shield:hover{
+   color: maroon;
+ }
+ .npm-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .npm-shield:hover{
+   color: maroon;
+ }
+ .git-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .git-shield:hover{
+   color: maroon;
+ }
+ .github-shield:hover .extra{
+   position: absolute;
+   display: block;
+   bottom: 100px;
+   left: 0;
+   right: 0;
+   transition: .25s;
+ }
+ .github-shield:hover{
+   color: maroon;
+ }
+ }
+
+
 //Portfolio Images
 .view-project{
   background: #384047;
@@ -377,27 +681,53 @@ button {
   color: #384047;
 }
 
-
-@media (min-width: 320px) and (max-width: 568px){
-
-
-
-#menu ul {
- display: none;
+//Email
+.email{
+  text-decoration: none;
+  color: black;
 }
 
-}
+// @media (min-width: 320px) and (max-width: 568px){
+//
+//   // #menu select, #menu button{
+//   //   font-size: 12px;
+//   //  display: none;
+//   // }
+//   .first-name{
+//     text-align: center;
+//     padding-top: 25px;
+//     font-size: 40px;
+//   }
+//   .last-name{
+//     text-align: center;
+//     font-size: 40px;
+//   }
+//   .job-title{
+// //     text-align: center;
+// //     font-size: 20px;
+// //   }
+// //   #menu ul li a {
+// //     font-size: 12px;
+// //   }
+// //
+// //   #menu ul {
+// //     padding-left: 0px;
+// //   }
+//
+// // #menu ul {
+// //  display: none;
+// // }
+//
+// }
 
-@media (min-width: 568px){
-
-.site-heading{
-  height: 60vh;
-}
-.job-title{
-  font-size: 50px;
-}
-#menu select, #menu button{
- display: none;
-}
-
-}
+// @media (min-width: 568px){
+//
+// // .site-heading{
+// //   height: 60vh;
+// // }
+// .job-title{
+//   font-size: 50px;
+// }
+//
+//
+// }
