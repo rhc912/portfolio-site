@@ -6512,7 +6512,7 @@ button {
     display: none; } }
 @media (max-width: 767px) and (orientation: landscape) {
   .view-project {
-    margin-left: 20px;
+    text-align: center;
     margin-top: 10px; }
 
   h2 {
@@ -6563,4 +6563,5 @@ button {
 .email {
   text-decoration: none;
   color: black; }
+
 /*# sourceMappingURL=app.css.map */
