@@ -690,6 +690,7 @@ button {
 }
 .aboutProj{
   color: white;
+  font-size: 20px;
 }
 .hovereffect .overlay {
   width: 100%;
@@ -809,10 +810,20 @@ button {
     margin-top: 10px;
   }
 }
-@media (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
-  .view-project{
-    margin-top: 10px;
+@media (max-width: 900px){
+  .hovereffect h2{
+    font-size: 10px;
   }
+  .hovereffect a.info{
+    margin: 0px 0 0 0;
+    font-size: 10px;
+  }
+  .hovereffect a.infoCode{
+    margin: 10px 0 0 0;
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
   .hovereffect h2{
     display: none;
   }
@@ -824,33 +835,39 @@ button {
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
-  .view-project{
-    margin-top: 10px;
-  }
   .aboutProj{
     display: none;
   }
 }
 @media (max-width: 767px) and (orientation: portrait){
-  .view-project{
-
-    margin-top: 10px;
-  }
   .aboutProj{
     display: none;
   }
 }
 @media (max-width: 767px) and (orientation: landscape){
-  .view-project{
-
-    margin-top: 10px;
-  }
   .hovereffect h2{
     font-size: 10px;
 
   }
   .aboutProj{
     display: none;
+  }
+}
+@media (max-width: 736px){
+
+  .hovereffect h2{
+    font-size: 10px;
+
+  }
+  .aboutProj{
+    display: none;
+  }
+  .hovereffect a.info{
+    margin: 0px 0 0 0;
+    font-size: 10px;
+  }
+  .hovereffect a.infoCode{
+    font-size: 10px;
   }
 }
 @media (max-width: 640px){
@@ -862,6 +879,7 @@ button {
     font-size: 10px;
   }
   .hovereffect a.infoCode{
+    margin: 10px 0 0 0;
     font-size: 10px;
   }
 }
@@ -877,16 +895,29 @@ button {
     font-size: 10px;
   }
 }
+@media (max-width: 600px){
+  .hovereffect h2{
+    font-size: 10px;
+  }
+  .hovereffect a.info{
+    margin: 0px 0 0 0;
+    font-size: 5px;
+  }
+  .hovereffect a.infoCode{
+    font-size: 5px;
+    margin: 0px 0 0 0;
+  }
+}
 @media (max-width: 568px){
   .hovereffect h2{
     font-size: 10px;
   }
   .hovereffect a.info{
     margin: 0px 0 0 0;
-    font-size: 10px;
+    font-size: 7px;
   }
   .hovereffect a.infoCode{
-    font-size: 10px;
+    font-size: 7px;
     margin: 0px 0 0 0;
   }
 }
@@ -895,7 +926,7 @@ button {
     font-size: 10px;
   }
   .hovereffect a.info{
-    margin: 0px 0 0 0;
+    margin: 10px 0 0 0;
     font-size: 10px;
   }
   .hovereffect a.infoCode{
