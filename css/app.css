@@ -6459,7 +6459,24 @@ button {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
+.hovereffect a.infoCode {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 25px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
 .hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff; }
+
+.hovereffect a.infoCode {
   box-shadow: 0 0 5px #fff; }
 
 .hovereffect:hover .overlay {
@@ -6482,45 +6499,14 @@ button {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s; }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .view-project {
-    margin-left: 135px;
-    margin-top: 10px; } }
-@media (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
-  .view-project {
-    margin-left: 50px;
-    margin-top: 10px; }
+.hovereffect:hover a.infoCode {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s; }
 
-  h2 {
-    display: none; }
-
-  .aboutProj {
-    display: none; } }
-@media (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
-  .view-project {
-    margin-left: 100px;
-    margin-top: 10px; }
-
-  .aboutProj {
-    display: none; } }
-@media (max-width: 767px) and (orientation: portrait) {
-  .view-project {
-    margin-left: 85px;
-    margin-top: 10px; }
-
-  .aboutProj {
-    display: none; } }
-@media (max-width: 767px) and (orientation: landscape) {
-  .view-project {
-    text-align: center;
-    margin-top: 10px; }
-
-  h2 {
-    display: none; }
-
-  .aboutProj {
-    display: none; } }
 .view-project {
+  text-align: center;
   background: #384047;
   color: white; }
 
@@ -6528,6 +6514,84 @@ button {
   color: white;
   font-weight: bold; }
 
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .view-project {
+    margin-top: 10px; } }
+@media (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+  .view-project {
+    margin-top: 10px; }
+
+  .hovereffect h2 {
+    display: none; }
+
+  .aboutProj {
+    display: none; }
+
+  .hovereffect a.info {
+    margin: 10px; } }
+@media (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
+  .view-project {
+    margin-top: 10px; }
+
+  .aboutProj {
+    display: none; } }
+@media (max-width: 767px) and (orientation: portrait) {
+  .view-project {
+    margin-top: 10px; }
+
+  .aboutProj {
+    display: none; } }
+@media (max-width: 767px) and (orientation: landscape) {
+  .view-project {
+    margin-top: 10px; }
+
+  .hovereffect h2 {
+    font-size: 10px; }
+
+  .aboutProj {
+    display: none; } }
+@media (max-width: 640px) {
+  .hovereffect h2 {
+    font-size: 10px; }
+
+  .hovereffect a.info {
+    margin: 0px 0 0 0;
+    font-size: 10px; }
+
+  .hovereffect a.infoCode {
+    font-size: 10px; } }
+@media (max-width: 639px) {
+  .hovereffect h2 {
+    font-size: 10px; }
+
+  .hovereffect a.info {
+    margin: 0px 0 0 0;
+    font-size: 10px; }
+
+  .hovereffect a.infoCode {
+    font-size: 10px; } }
+@media (max-width: 568px) {
+  .hovereffect h2 {
+    font-size: 10px; }
+
+  .hovereffect a.info {
+    margin: 0px 0 0 0;
+    font-size: 10px; }
+
+  .hovereffect a.infoCode {
+    font-size: 10px;
+    margin: 0px 0 0 0; } }
+@media (max-width: 320px) {
+  .hovereffect h2 {
+    font-size: 10px; }
+
+  .hovereffect a.info {
+    margin: 0px 0 0 0;
+    font-size: 10px; }
+
+  .hovereffect a.infoCode {
+    font-size: 10px;
+    margin: 10px 0 0 0; } }
 .resume {
   color: #384047;
   text-decoration: underline; }
