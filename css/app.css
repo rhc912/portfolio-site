@@ -5773,8 +5773,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; }
+  overflow-y: scroll; }
 
 .container-rob {
   padding: 0; }
